@@ -1,0 +1,10 @@
+nums = [34, 54, 22, 32]
+counts = 0
+total = 0
+
+for i in range(0, len(nums)):
+    total = total + nums[counts]
+    print(total)
+    counts = counts + 1
+    if counts == len(nums):
+        print("the total is", total)
