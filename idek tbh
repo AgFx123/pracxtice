@@ -1,0 +1,13 @@
+pitHeight = float(input("what is the height of the ball pit? "))
+pitLength = float(input("what is the length of the ball pit? "))
+ballRad = float(input("what is the length of the ball pit? "))
+
+
+def calc():
+    pitVol = 3.14 * pitLength * pitHeight
+    print("pit volume is", pitVol)
+    ballVol =4 / 3 * 3.14 * ballRad
+    print("ball volume is", ballVol)
+    numBalls = pitVol/ballVol
+    print('number of balls required is',numBalls)
+calc()
